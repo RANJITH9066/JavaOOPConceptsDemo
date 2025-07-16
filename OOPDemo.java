@@ -64,7 +64,7 @@ public class OOPDemo {
         List<Person> staff = new ArrayList<>(); // Collection
 
         staff.add(new Employee("Ranjith", 25, 35000));
-        staff.add(new Manager("Vishakha", 28, 50000, 5));
+        staff.add(new Manager("Varalakshmi", 48, 50000, 5));
 
         for (Person p : staff) {
             p.displayRole();
